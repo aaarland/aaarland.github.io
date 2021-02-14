@@ -1,0 +1,12 @@
+[
+    {
+        "title":"Scripts",
+        "description":"The scripts repository is where I collect all my scripts, one example is a script that scrapes the links on the website and put it in a neat table",
+        "github":"https://github.com/aaarland/scripts"
+    },
+    {
+        "title":"More comming soon",
+        "description":"This site is still under construction and more projects will be added soon.",
+        "github":"https://github.com/aaarland/"
+    }
+]
