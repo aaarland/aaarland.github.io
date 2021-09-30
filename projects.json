@@ -1,5 +1,10 @@
 [
     {
+        "title":"Object-Oriented Programming",
+        "description":"This repository contains all the projects from my Object-Oriented programming class. This is the first time I touched OOP. They might be reworked later on",
+        "github":"https://github.com/aaarland/OOP"
+    },
+    {
         "title":"Scripts",
         "description":"The scripts repository is where I collect all my scripts, one example is a script that scrapes the links on the website and put it in a neat table",
         "github":"https://github.com/aaarland/scripts"
