@@ -34,8 +34,9 @@ header{
 }
 
 a{
-    color: white;
+    color: #A8C0E8;
     font-family: Arial, Helvetica, sans-serif;
+    flex: auto;
 }
 
 header h1{
@@ -84,5 +85,4 @@ header nav{
 
 #projects li a{
     display: block;
-    color: #A8C0E8;
 }
