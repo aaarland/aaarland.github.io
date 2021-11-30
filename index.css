@@ -30,6 +30,7 @@ header{
     display: block;
     position: sticky;
     background-color: #262626;
+    width: 100%;
 }
 
 a{
