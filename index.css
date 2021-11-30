@@ -11,8 +11,6 @@ body{
     margin: 0 auto;
 }
 
-
-
 h1{
     margin: 0 auto;
     text-align: center;
@@ -50,17 +48,10 @@ header nav{
     display: flex;
 }
 
-header nav a{
-    
-}
 
-h1 ~ img{
-    width: 75%;
-    margin: 0 auto;
-    display: block;
-    border-radius: 50%;
-    overflow: hidden;
-    padding: 1em 0;
+
+#about{
+    margin: 1em auto;
 }
 
 #projects{
