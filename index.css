@@ -68,6 +68,10 @@ header nav a:hover{
     margin: 1em auto;
 }
 
+#about, #projects{
+    scroll-margin-top: 3em;
+}
+
 #projects{
     list-style-type: none;
     padding: 0;
