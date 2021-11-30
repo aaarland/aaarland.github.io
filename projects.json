@@ -1,5 +1,11 @@
 [
     {
+        "title":"Bingo",
+        "description":"Implementation of the game Bingo in Java",
+        "github":"https://github.com/aaarland/bingo"
+
+    },
+    {
         "title":"Object-Oriented Programming",
         "description":"This repository contains all the projects from my Object-Oriented programming class. This is the first time I touched OOP. They might be reworked later on",
         "github":"https://github.com/aaarland/OOP"
