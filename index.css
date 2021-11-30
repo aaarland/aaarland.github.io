@@ -7,16 +7,11 @@ html, body{
 
 body{
     width: 100%;
-    max-width: 576px;
     margin: 0 auto;
 }
 
 h1{
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 1em; 
-    font-family: Helvetica, sans-serif;
-    font-size: xxx-large; 
+    
 }
 
 p{
@@ -31,23 +26,46 @@ header{
     position: sticky;
     background-color: #262626;
     width: 100%;
+    padding-top: 1em;
+    top: 0;
 }
 
 a{
     color: #A8C0E8;
     font-family: Arial, Helvetica, sans-serif;
-    flex: auto;
+}
+
+body p, ul{
+    max-width: 576px;
 }
 
 header h1{
     position: relative;
     left: 1em;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-size: xxx-large; 
 }
 
 header nav{
     width: 50%;
     float: right;
     display: flex;
+}
+
+header nav a{
+    flex: auto;
+    text-align: center;
+    align-content: center;
+    display: block;
+    font-size: xx-large;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    background-color: black;
 }
 
 
