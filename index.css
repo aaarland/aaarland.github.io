@@ -20,11 +20,20 @@ h1{
     font-family: Helvetica, sans-serif;
     font-size: xxx-large; 
 }
+
 p{
     margin: 0 auto;
     font-size: xx-large;
     text-align: center;
 }
+
+header{
+    height: 3em;
+    display: block;
+    position: sticky;
+    background-color: #262626;
+}
+
 h1 ~ img{
     width: 75%;
     margin: 0 auto;
