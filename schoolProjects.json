@@ -21,6 +21,7 @@
     },
     {
         "title":"OS File Explorer",
-        "description":"Last assignment from Operating Systems class. Implemented a file explorer with a GUI library."
+        "description":"Last assignment from Operating Systems class. Implemented a file explorer with a GUI library.",
+        "github":"https://github.com/aarl2934/os-fileexplorer"
     }
 ]
