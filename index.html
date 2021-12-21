@@ -3,24 +3,56 @@
     <head>
         <link rel="stylesheet" href="index.css"/>
         <title>Adrian Aarland</title>
+        <noscript>
+            <style>
+                #projects{
+                    display: block;
+                }
+            </style>
+        </noscript>
     </head>
     <body>
         <header>
             <h1> Adrian Aarland</h1>
             <nav>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
+                <a id="aboutLink" href="#">About</a>
+                <a id="projLink" href="#">Projects</a>
                 <a href="mailto:adrian@aswaa.dev">Contact</a>
             </nav>
         </header>
+        <section id="aboutSection">
+            <p class="about">
+                Hello World! My name is Adrian Aarland. I'm a Computer Scientist with a degree from the University
+                of St. Thomas. I was raised on an island on the west coast of Norway. Being far away from anything, 
+                one of the key things that kept me entertained was computers and the internet. On the internet there were all
+                these amazing games, one of my favorite categories was brain puzzles. Feeling a thrill everytime I was able 
+                to solve them.
+            </p>
+            <p class="about">
+                The year is 2009, my first year in middle school. The iPhone 3GS was just released and I had enough money
+                saved up to buy one. Many of the Apps I downloaded was games. My brother and I wanted to make games ourself,
+                neither of us had any programming experience at the time so we had no idea how to even begin. We found a tutorial
+                similar to the game "Papi Jump", we put in our own assets and where happy with what we had achived.
+                After getting the first app working with my brother, I wanted to make my own app. I was a big Family Guy fan at the
+                time, so naturally I wanted to do something with that. I created a soundboard app with one voice line from each of
+                the main characters. To achive this I found a tutorial on how to play a sound with a button, and one how to change
+                the look of the button. 
+            </p>
+            <p>
+                
+            </p>
+            
+        </section>
         
-        <p id="about">Hello World! My name is Adrian Aarland. I'm a Computer Scientist with a degree from the University
-            of St. Thomas. Before getting my degree in the United States I was a student at the University og Bergen, studying Digital Culture.
-            During weekends I would work as a fish farmer. In High School I repaired electronics, countless iPhones, 
-            some iPads, a couple of Samsungs, and a few laptops.
-        </p>
+
+            
+            
         <ul id="projects"></ul>
     </body>
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+			  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+			  crossorigin="anonymous"></script>
     <script src="code.js"></script>
 </html>
 

@@ -1,3 +1,16 @@
+$("#projLink").click((e) =>{
+    e.preventDefault()
+    $("#projects").show()
+    $("#aboutSection").hide()
+    }
+)
+
+$("#aboutLink").click((e) => {
+    e.preventDefault()
+    $("#aboutSection").show()
+    $("#projects").hide()
+})
+
 function generateHTML(data){
     var projects = document.getElementById("projects");
 
