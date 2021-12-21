@@ -2,8 +2,21 @@ $("#projLink").click((e) =>{
     e.preventDefault()
     $("#projects").show()
     $("#aboutSection").hide()
-    }
-)
+    $("#schoolProjects").hide()
+    $("#personalProjects").show()
+})
+
+$("#projectLinksPersonal").click((e) =>{
+    e.preventDefault()
+    $("#schoolProjects").hide()
+    $("#personalProjects").show()
+})
+
+$("#projectLinksPersonal").click((e) =>{
+    e.preventDefault()
+    $("#schoolProjects").show()
+    $("#personalProjects").hide()
+})
 
 $("#aboutLink").click((e) => {
     e.preventDefault()
