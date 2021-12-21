@@ -32,7 +32,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body p, ul{
+body p, #projects{
     max-width: 720px;
 }
 
