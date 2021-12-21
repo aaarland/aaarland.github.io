@@ -1,0 +1,26 @@
+[
+    {
+        "title":"Object-Oriented Programming",
+        "description":"This repository contains all the projects from my Object-Oriented programming class. This is the first time I touched OOP, good for referencing progress.",
+        "github":"https://github.com/aaarland/OOP"
+    },
+    {
+        "title":"OS pointers",
+        "description":"First assignment from Operating Systems class. Learned how pointers work in C++.",
+        "github":"https://github.com/aarl2934/os-pointers"
+    },
+    {
+        "title":"OS scheduling",
+        "description":"Second assignment from Operating Systems class. Learned how the scheduler work and implmented it.",
+        "github":"https://github.com/aarl2934/os-scheduling"
+    },
+    {
+        "title":"OS Shell",
+        "description":"Third assignment from Operating Systems class. Implemented our own shell to understand what role it plays in the Operating System.",
+        "github":"https://github.com/aarl2934/os-osshell"
+    },
+    {
+        "title":"OS File Explorer",
+        "description":"Last assignment from Operating Systems class. Implemented a file explorer with a GUI library."
+    }
+]

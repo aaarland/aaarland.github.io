@@ -8,11 +8,12 @@ html, body{
 body{
     width: 100%;
     margin: 0 auto;
+    padding: 0 1em;
 }
 
 p{
     margin: 0 auto;
-    font-size: large;
+    font-size: medium;
     text-align: center;
 }
 
@@ -24,6 +25,7 @@ header{
     width: 100%;
     padding-top: 1em;
     top: 0;
+    margin-bottom: 5%;
 }
 
 a{
@@ -32,7 +34,7 @@ a{
 }
 
 body p, ul{
-    max-width: 576px;
+    max-width: 720px;
 }
 
 header h1{
@@ -73,33 +75,36 @@ header nav a:hover{
 }
 
 #projects{
+    display: none;
+}
+
+#personalProjects, #schoolProjects{
     list-style-type: none;
     padding: 0;
     margin: 0 auto;
     padding-bottom: 2em;
-    display: none;
 }
 
-#projects li{
+#projects ul li{
     padding-top: 1.5em;
 }
 
-#projects li p{ 
+#projects ul li p{ 
     font-size: large;
     width: 80%;
     padding: .15 0;
 }
 
-#projects li h2{
+#projects ul li h2{
     font-family: Helvetica, sans-serif;
     width: 95%;
     margin: 0 auto;
 }
 
-#projects li:nth-child(even) h2{
+#projects ul li:nth-child(even) h2{
     text-align: right;
 }
 
-#projects li a{
+#projects ul li a{
     display: block;
 }
