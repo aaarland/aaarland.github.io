@@ -59,11 +59,17 @@ header nav a{
     text-decoration: none;
 }
 
-header nav a:hover{
+a:hover{
     background-color: black;
 }
 
+section{
+    margin: 0 auto;
+}
 
+.extra{
+    display: none;
+}
 
 .about{
     margin: 1em auto;

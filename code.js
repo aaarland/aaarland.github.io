@@ -12,7 +12,7 @@ $("#projectLinksPersonal").click((e) =>{
     $("#personalProjects").show()
 })
 
-$("#projectLinksPersonal").click((e) =>{
+$("#projectLinksSchool").click((e) =>{
     e.preventDefault()
     $("#schoolProjects").show()
     $("#personalProjects").hide()
@@ -22,6 +22,12 @@ $("#aboutLink").click((e) => {
     e.preventDefault()
     $("#aboutSection").show()
     $("#projects").hide()
+})
+
+$("#showMore").click((e) =>{
+    e.preventDefault()
+    $(".extra").show()
+    $("#showMore").hide()
 })
 
 function generateHTML(data, id){
