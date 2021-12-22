@@ -30,9 +30,12 @@ header{
 a{
     color: #A8C0E8;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    flex: auto;
+    font-size: large;
 }
 
-body p, #projects{
+body section{
     max-width: 720px;
 }
 
@@ -50,21 +53,19 @@ header nav{
 }
 
 header nav a{
-    flex: auto;
     text-align: center;
-    align-content: center;
     display: block;
-    font-size: xx-large;
-    line-height: 1.5em;
+    font-size: xx-large; 
     text-decoration: none;
 }
 
-a:hover{
+nav a:hover{
     background-color: black;
 }
 
 section{
     margin: 0 auto;
+    text-align: center;
 }
 
 .extra{
@@ -81,6 +82,17 @@ section{
 
 #projects{
     display: none;
+}
+
+#projectLinks{
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#projectLinks a{
+    flex: auto;
+    text-align: center;
 }
 
 #personalProjects, #schoolProjects{
@@ -108,6 +120,5 @@ section{
 
 
 #projects ul li a{
-    display: block;
-    text-align: right;
+    float: right;
 }

@@ -22,6 +22,8 @@ $("#aboutLink").click((e) => {
     e.preventDefault()
     $("#aboutSection").show()
     $("#projects").hide()
+    $("#showMore").show()
+    $(".extra").hide()
 })
 
 $("#showMore").click((e) =>{
