@@ -1,5 +1,10 @@
 [
     {
+        "title":"Connect 4",
+        "description":"Small game I made in pygame to show my younger brother what he could do if he learned to program",
+        "github":"https://github.com/aaarland/connect_4"
+    },
+    {
         "title":"Bingo",
         "description":"Implementation of the game Bingo in Java",
         "github":"https://github.com/aaarland/bingo"
@@ -9,10 +14,5 @@
         "title":"Scripts",
         "description":"The scripts repository is where I collect all my scripts, one example is a script that scrapes the links on the website and put it in a neat table",
         "github":"https://github.com/aaarland/scripts"
-    },
-    {
-        "title":"More comming soon",
-        "description":"This site is still under construction and more projects will be added soon.",
-        "github":"https://github.com/aaarland/"
     }
 ]

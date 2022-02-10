@@ -118,7 +118,10 @@ section{
     margin: 0 auto;
 }
 
-
 #projects ul li a{
     float: right;
+}
+
+#showMore{
+    display: none;
 }
